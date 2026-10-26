@@ -1,4 +1,4 @@
-# tex2docx
+# LaTeX to Docx Converter
 
 A small Python command-line tool that converts **LaTeX (`.tex`) to Word (`.docx`)** and **Word back to LaTeX**, built for scientific papers. It wraps [Pandoc](https://pandoc.org) and adds the preprocessing that a plain `pandoc paper.tex -o paper.docx` misses: PDF figures, bibliographies, cross-references and journal front matter.
 
